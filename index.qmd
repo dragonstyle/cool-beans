@@ -38,6 +38,8 @@ jupyter: python3
 
 ## Introduction
 
+Yo dog, I heard you liked Volancos, so I put a volcano in your volcano so you can get additional hot lava.
+
 ![Map of La Palma](images/la-palma-map.png){#fig-map}
 
 La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands (@fig-map).
