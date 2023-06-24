@@ -204,10 +204,10 @@
   </div>
 </div>
 
-</header>   <div id="c0cb63f5" class="cell markdown">
+</header>   <div id="d615e327" class="cell markdown">
 
 </div>
-<div id="ffcff3f1" class="cell markdown">
+<div id="18b7a488" class="cell markdown">
 <section id="introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
 <p>Yo dog, I heard you liked Volancos, so I put a volcano in your volcano so you can get additional hot lava.</p>
@@ -272,7 +272,7 @@ p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}
 <p>Where <span class="math inline">\(\lambda\)</span> is the rate of eruptions per year. Using <a href="#eq-poisson" class="quarto-xref">Equation&nbsp;1</a>, the probability of an eruption in the next <span class="math inline">\(t\)</span> years can be calculated.</p>
 </section>
 </div>
-<div class="cell-container column-page-left"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="887c54f5" class="cell" data-execution_count="1">
+<div class="cell-container column-page-left"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="e27ba7b2" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>eruptions <span class="op">=</span> [<span class="dv">1492</span>, <span class="dv">1585</span>, <span class="dv">1646</span>, <span class="dv">1677</span>, <span class="dv">1712</span>, <span class="dv">1949</span>, <span class="dv">1971</span>, <span class="dv">2021</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -292,14 +292,14 @@ p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}
 </div>
 </div>
 </div></div>
-<div class="cell-container column-page-left"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="bf28538f" class="cell" data-execution_count="3">
+<div class="cell-container column-page-left"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="8e62cba6" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>avg_years_between_eruptions <span class="op">=</span> np.mean(np.diff(eruptions[:<span class="op">-</span><span class="dv">1</span>]))</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>avg_years_between_eruptions</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="3">
 <pre><code>79.83333333333333</code></pre>
 </div>
 </div></div>
-<div id="9fead6ca" class="cell markdown page-columns page-full">
+<div id="def0e008" class="cell markdown page-columns page-full">
 <p>Based on the eruptions up to and including 1971, we would estimate <span class="math inline">\(\lambda\)</span> to be <span class="math inline">\(\frac{1}{79.8}\)</span>.</p>
 <p>Studies of the magma systems feeding the volcano, such as <span class="citation" data-cites="marrero2019">Marrero et al. (<a href="#ref-marrero2019" role="doc-biblioref">2019</a>)</span>, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).</p>
 <p>A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano <span class="citation" data-cites="marrero2019">(<a href="#ref-marrero2019" role="doc-biblioref">Marrero et al. 2019</a>)</span>.</p>
